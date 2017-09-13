@@ -2,11 +2,11 @@
 title: Contact
 description: Send us a message to find out more!
 map:
-  latitude: -45.8787605
-  longitude: 170.5027976
-  address: "1 George Street, Dunedin, New Zealand"
+  latitude: 36.299263
+  longitude: 120.394875
+  address: 山东省青岛市城阳区国家广告产业园21号楼
   zoom: 13
-image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
+image: 'https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png'
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
@@ -21,19 +21,19 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 <section class="pad">
 	<div class="text-container contact-box">
 		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="support@cloudcannon.com">
-			<input type="text" name="_gotcha" style="display: none;">
+			<input type="hidden" name="_to" value="support@cloudcannon.com" />
+			<input type="text" name="_gotcha" style="display: none;" />
 
 			<label for="name">Name</label>
-			<input type="text" name="name" id="name" placeholder="Enter your name...">
+			<input type="text" name="name" id="name" placeholder="Enter your name..." />
 
 			<label for="email">Email Address</label>
-			<input type="email" name="email" id="email" placeholder="Enter your email..." required>
+			<input type="email" name="email" id="email" placeholder="Enter your email..." required />
 
 			<label for="message">Message</label>
 			<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
 
-			<input type="submit" value="Send Message">
+			<input type="submit" value="Send Message" />
 		</form>
 
 		<div class="contact-details">
@@ -41,7 +41,7 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
 			<h3>Email</h3>
-			<p class="editable"><a href="mailto:support@example.com">support@example.com</a></p>
+			<p class="editable">微信：13706429523/ 5318868771</p>
 		</div>
 	</div>
 </section>
