@@ -1,5 +1,5 @@
 ---
-name: 皇家加勒比游轮
+name: 皇家加勒比邮轮
 position: 美国
 image_path: >-
   http://www.youlunjia.cn/Public/attached/image/20170328/20170328143721_95246.jpg
